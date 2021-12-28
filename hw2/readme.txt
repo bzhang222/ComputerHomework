@@ -11,11 +11,11 @@ for (long i = 0; i < COUNT; ++i)
 }
 access the array with
 
-array[index[i]].population rather than array[i], 
-if array[index[i]].population > array[index[i+1]]
+array[indirect[i]].population rather than array[i], 
+if array[indirect[i]].population > array[indirect[i+1]]
 {
-   // do not swap the array[index[i]] and array[index[i+1]],
-   // but swap the index[i] and index[i+1]
+   // do not swap the array[index[i]] and array[indirect[i+1]],
+   // but swap the indirect[i] and indirect[i+1]
    
 }
 
