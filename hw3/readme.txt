@@ -81,7 +81,14 @@ void capitalizeEachChar(char *str)
 	}
 
 }
-// rewrite getLen, using array format, with while loop, and with for loop 
-
-
+1 rewrite getLen, using array format, with while loop, and with for loop 
+2 implement
+bool isPalindrome(char* str)
+{
+	int len = strlen(str);
+	....
+	return false;
+	...
+	return true;
+}
 
