@@ -1,7 +1,7 @@
 1 define a myAbsolute(float f) , to return the absolute value of a float number
 
 2 using a method similiar to binary search to find the SQRT(5)
-define two floats called leftand right, pre - set them to 2 and 3, as we know sqrt(2) is between 2 and 3;
+define two floats called leftand right, pre - set them to 2 and 3, as we know sqrt(5) is between 2 and 3;
 try the mid, see if the mid is too big or too small and adjust left and right accordingly, program ends when the 
 precision reaches 1e-4, i.e. abs(mid * mid - 5) < 1e-4. 
 
