@@ -67,4 +67,5 @@ are sorted in descending order of population,  the new function merge them into
 a sorted list. Note that the item will be in the reverse order of the insertion, 
 since they are inserted ascendingly, the result list are in descending order.
 
+You can use AddNode to create new list, but the result list will be in reverse order, how do we reverse the result list?
 */
