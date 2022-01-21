@@ -1,6 +1,14 @@
 
+// arrays can be initialized at declaration time
 
+e.g.
+int ii[] = {3,4,5,6};
+this declare and init an array of 4 elements.
 
+you can have an array of pointers
+char * cc[] = {"3","$","a"}; //this initialize an array of 4 char pointers 
+
+similiarly, following array of pointers contain an post-fix math expression
 char * tokens [] ={"3","45","5", "+", "*","2","/","="};
 
 atoi(tokens[0]) ==> will convert string to integer, in this case returns 3
