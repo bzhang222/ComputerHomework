@@ -1,3 +1,17 @@
+previously the C getMinMax looks like this
+
+int getMinMax(int * array, int length, int* min, int* max)
+{
+
+}
+
+and calling it looks like this
+
+int a [] = {1,2,5,1,55,33,29,35};
+int mininum, maximum;
+getMinMax(a, 8, &minimum, &maximum);
+
+NOW with C++:
 
 c++ also allows for call by reference, which will allow the function to modify the variable it passed in from caller:
 
